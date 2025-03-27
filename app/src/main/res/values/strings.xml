@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name" translatable="false">Magix</string>
+    <string name="module_1" translatable="false">Think of a Card</string>
+    <string name="module_2" translatable="false">Coin Through Phone</string>
+    <string name="modules">Modules</string>
+    <string name="morgan_coin">Morgan Coin</string>
+    <string name="module_3" translatable="false">Mental Calc</string>
+    <string name="module_4" translatable="false">(Mind Reading)</string>
+    <string name="calc_ac" translatable="false">AC</string>
+    <string name="calc_plus_minus" translatable="false">+/-</string>
+    <string name="calc_percent" translatable="false">%</string>
+    <string name="calc_divide" translatable="false">÷</string>
+    <string name="calc_7" translatable="false">7</string>
+    <string name="calc_8" translatable="false">8</string>
+    <string name="calc_9" translatable="false">9</string>
+    <string name="calc_multiple" translatable="false">×</string>
+    <string name="calc_4" translatable="false">4</string>
+    <string name="calc_5" translatable="false">5</string>
+    <string name="calc_6" translatable="false">6</string>
+    <string name="calc_minus" translatable="false">−</string>
+    <string name="calc_1" translatable="false">1</string>
+    <string name="calc_2" translatable="false">2</string>
+    <string name="calc_3" translatable="false">3</string>
+    <string name="calc_plus" translatable="false">+</string>
+    <string name="calc_0" translatable="false">0</string>
+    <string name="calc_dot" translatable="false">.</string>
+    <string name="calc_equal" translatable="false">=</string>
+    <string name="settings">Settings</string>
+    <string name="morgan_dollar">Morgan Dollar</string>
+    <string name="eisenhower_dollar">Eisenhower Dollar</string>
+    <string name="pirate_coin">Pirate Coin</string>
+    <string name="other">Other</string>
+    <string name="dollar_size">Dollar Size</string>
+    <string name="half_dollar_size">Half-dollar Size</string>
+    <string name="size">Size</string>
+    <string name="coin_type">Coin Type</string>
+    <string name="coin_through_phone_parameters">Coin Through Phone Parameters</string>
+    <string name="mental_calculator_parameter">Mental Calculator Parameter</string>
+    <string name="predefined_value">Predefined Value</string>
+    <string name="captured_image_desc">Captured image</string>
+    <string name="take_coin_face_photo">Take Coin Face Photo</string>
+    <string name="enter_custom_coin_size">Enter custom coin size</string>
+    <string name="think_of_a_card">Think of a Card</string>
+</resources>

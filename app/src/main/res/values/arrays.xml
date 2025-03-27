@@ -1,0 +1,33 @@
+<!-- res/values/arrays.xml -->
+<resources>
+    <string-array name="coin_types">
+        <item>Morgan Dollar</item>
+        <item>Eisenhower Dollar</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="coin_type_values">
+        <item>coin_face_morgan</item>
+        <item>coin_face_eisenhower</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="coin_sizes">
+        <item>Dollar Size</item>
+        <item>Half Dollar Size</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="coin_size_values">
+        <item>38</item>
+        <item>31</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="toac_switch">
+        <item>Bluetooth ring</item>
+        <item>Bluetooth headset</item>
+        <item>Volume keys</item>
+    </string-array>
+    <string-array name="toac_switch_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+</resources>

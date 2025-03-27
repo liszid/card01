@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_module1"
+        android:title="@string/module_1" />
+    <item
+        android:id="@+id/menu_module2"
+        android:title="@string/module_2" />
+    <item
+        android:id="@+id/menu_module3"
+        android:title="@string/module_3" />
+    <item
+        android:id="@+id/menu_module4"
+        android:title="@string/module_4" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/settings" />
+</menu>

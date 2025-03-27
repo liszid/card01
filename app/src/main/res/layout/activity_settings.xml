@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_background"
+    android:padding="16dp"
+    tools:context=".Configuration.Settings">
+
+    <TextView
+        android:id="@+id/coinThroughPhoneTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coin_through_phone_parameters"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textStyle="bold" />
+    <!-- Coin Type Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/section_background"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/coinFaceTypeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coin_type"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/coinFaceTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/coin_types"
+            android:textColor="@color/white"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/takeCoinFacePhotoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/take_coin_face_photo"
+            android:visibility="gone"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/coinSizeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/size"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/coinSizeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/coin_sizes"
+            android:textColor="@color/white"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/otherCoinSizeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_custom_coin_size"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:visibility="gone"
+            android:textColor="#ffffff"
+            android:padding="16dp" />
+
+        <!-- Gravity Switch -->
+        <Switch
+            android:id="@+id/gravitySwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gravity (on/off)"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <!-- Color Change Switch -->
+        <Switch
+            android:id="@+id/colorChangeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color Change (on/off)"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <!-- Flip Switch and Coin Amount EditText -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <Switch
+                android:id="@+id/flipSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flip (on/off)"
+                android:textColor="@color/white"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <EditText
+                android:id="@+id/coinAmountEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter coin amount"
+                android:inputType="number"
+                android:textColor="#ffffff"
+                android:visibility="gone"
+                android:padding="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/capturedImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/captured_image_desc" />
+
+    <TextView
+        android:id="@+id/mentalCalculatorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mental_calculator_parameter"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/section_background"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/mentalCalculatorTitleEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/predefined_value"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/mentalCalculatorEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="42"
+            android:inputType="number"
+            android:textColor="#ffffff"
+            android:padding="16dp"
+            tools:ignore="LabelFor" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ThinkOfACardSwitchTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/think_of_a_card"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/section_background"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/ThinkOfACardSwitchValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Value input type"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <Spinner
+            android:id="@+id/thinkOfACardSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/toac_switch"
+            android:textColor="@color/white"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+</LinearLayout>
